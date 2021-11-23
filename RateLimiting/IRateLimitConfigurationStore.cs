@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace RateLimitingQueue
+namespace RateLimiting
 {
     public interface IRateLimitConfigurationStore<T>
     {

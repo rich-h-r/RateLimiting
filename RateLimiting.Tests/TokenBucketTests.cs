@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
 using NUnit.Framework;
-using RateLimitingQueue.LimitingStrategies;
 using Moq;
+using RateLimiting.LimitingStrategies;
 
-namespace RateLimitingQueue.Tests
+namespace RateLimiting.Tests
 {
     [TestFixture]
     public class TokenBucketTests

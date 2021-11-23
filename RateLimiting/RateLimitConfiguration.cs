@@ -1,6 +1,6 @@
 using System;
 
-namespace RateLimitingQueue
+namespace RateLimiting
 {
     public class RateLimitConfiguration
     {

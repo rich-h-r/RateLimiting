@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace RateLimitingQueue.ConfigurationStores
+namespace RateLimiting.ConfigurationStores
 {
     /// <summary>
     /// just returns the default configuration

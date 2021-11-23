@@ -2,9 +2,9 @@ using System;
 using System.Threading.Tasks;
 using Moq;
 using NUnit.Framework;
-using RateLimitingQueue.LimitingStrategies;
+using RateLimiting.LimitingStrategies;
 
-namespace RateLimitingQueue.Tests
+namespace RateLimiting.Tests
 {
     [TestFixture]
     public class LeakyBucketTests

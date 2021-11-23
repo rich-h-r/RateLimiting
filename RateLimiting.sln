@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimitingQueue", "RateLimitingQueue\RateLimitingQueue.csproj", "{498F31A7-7002-4F7C-B47C-9B9E010B1B5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimiting", "RateLimiting\RateLimiting.csproj", "{498F31A7-7002-4F7C-B47C-9B9E010B1B5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimitingQueue.Tests", "RateLimitingQueue.Tests\RateLimitingQueue.Tests.csproj", "{5A52A373-F0EA-4DF7-8D64-782738CF7EBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimiting.Tests", "RateLimiting.Tests\RateLimiting.Tests.csproj", "{5A52A373-F0EA-4DF7-8D64-782738CF7EBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

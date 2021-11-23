@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace RateLimitingQueue.LimitingStrategies
+namespace RateLimiting.LimitingStrategies
 {
     /// https://en.wikipedia.org/wiki/Token_bucket
     /// tokens added every 1/r seconds

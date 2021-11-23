@@ -1,7 +1,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace RateLimitingQueue.LimitingStrategies
+namespace RateLimiting.LimitingStrategies
 {
     /// <summary>
     /// This is just a null rate limiter that always acquires the lock

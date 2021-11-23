@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace RateLimitingQueue.LimitingStrategies
+namespace RateLimiting.LimitingStrategies
 {
     public class MovingWindow<T> : IRateLimitingStrategy<T>
     {

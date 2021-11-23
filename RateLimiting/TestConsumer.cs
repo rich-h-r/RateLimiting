@@ -2,7 +2,7 @@ using System;
 using System.Threading.Channels;
 using System.Threading.Tasks;
 
-namespace RateLimitingQueue
+namespace RateLimiting
 {
     public class TestConsumer<T>
     {

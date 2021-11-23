@@ -1,9 +1,10 @@
 using System.Threading.Tasks;
 using NUnit.Framework;
-using RateLimitingQueue.LimitingStrategies;
+using RateLimiting.LimitingStrategies;
 
-namespace RateLimitingQueue.Tests
+namespace RateLimiting.Tests
 {
+    [TestFixture]
     public class NoLimitTests
     {
         [Test]

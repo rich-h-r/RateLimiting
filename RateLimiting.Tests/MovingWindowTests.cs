@@ -1,11 +1,12 @@
 using System;
 using System.Threading.Tasks;
 using NUnit.Framework;
-using RateLimitingQueue.ConfigurationStores;
-using RateLimitingQueue.LimitingStrategies;
+using RateLimiting.ConfigurationStores;
+using RateLimiting.LimitingStrategies;
 
-namespace RateLimitingQueue.Tests
+namespace RateLimiting.Tests
 {
+    [TestFixture]
     public class MovingWindowTests
     {
         private static readonly TimeSpan TenSeconds = TimeSpan.FromSeconds(10);
