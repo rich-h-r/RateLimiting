@@ -1,6 +1,6 @@
 bin/
 obj/
-.DotSettings.user
+*.DotSettings.user
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
