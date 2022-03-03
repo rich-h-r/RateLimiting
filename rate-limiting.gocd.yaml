@@ -1,0 +1,29 @@
+format_version: 10
+pipelines:
+  rate-limiting:
+    group: defaultGroup
+    label_template: ${COUNT}
+    lock_behavior: none
+    display_order: -1
+    materials:
+      git-72ac3ab:
+        git: https://github.com/rich-h-r/RateLimiting.git
+        shallow_clone: false
+        auto_update: true
+        branch: master
+    stages:
+    - run:
+        fetch_materials: true
+        keep_artifacts: false
+        clean_workspace: false
+        approval:
+          type: success
+          allow_only_on_success: false
+        jobs:
+          build:
+            timeout: 2
+            elastic_profile_id: dot-net
+            tasks:
+            - exec:
+                command: whoami
+                run_if: passed
